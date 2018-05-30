@@ -1,0 +1,16 @@
+PODS:
+  - AHSuperImages (0.1.0)
+
+DEPENDENCIES:
+  - AHSuperImages (from `../`)
+
+EXTERNAL SOURCES:
+  AHSuperImages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AHSuperImages: 386d7c2392a855e82db96450a49bd3f7e57be378
+
+PODFILE CHECKSUM: a3d84e6543599b8a68e317e932cf2b9208d2743b
+
+COCOAPODS: 1.5.3

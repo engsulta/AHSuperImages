@@ -1,0 +1,6 @@
+framework module AHSuperImages {
+  umbrella header "AHSuperImages-umbrella.h"
+
+  export *
+  module * { export * }
+}

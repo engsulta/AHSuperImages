@@ -1,0 +1,22 @@
+{
+  "name": "AHSuperImages",
+  "version": "0.1.0",
+  "summary": "A short description of AHSuperImages.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/engsulta/AHSuperImages",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "engsulta": "en.ahmedsultan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/engsulta/AHSuperImages.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AHSuperImages/Classes/**/*"
+}
