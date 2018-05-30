@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		199185E89E674E8ACBECC2DC94658B72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		2F60867AF84BEDCF0235ABCD73CD5CC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		35A2047020BF51A0000434AB /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A2046F20BF51A0000434AB /* UIImageViewExtension.swift */; };
 		4D0C7F2260619E5CBEFABFDAE9879F56 /* Pods-AHSuperImages_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC801DE3ABAAC4F1BD0F6A84E1CCB14 /* Pods-AHSuperImages_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60546357A940ADB536ADDCF81DC278EF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2156B0BF4166D8C9E285D345B2FCE4 /* ReplaceMe.swift */; };
 		8D9850EF9970B57CF61A989CF7981840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		B0A34A7580FCB951A4E8689BD1BE9488 /* Pods-AHSuperImages_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BB17D709A91C3BD7173B4457F7E380 /* Pods-AHSuperImages_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2DF84726757C6C239F1DFFF84D63C20 /* Pods-AHSuperImages_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5D9AC3512D4D7EB68A0E1D820A94D2 /* Pods-AHSuperImages_Example-dummy.m */; };
@@ -43,6 +43,7 @@
 		2C4A90E7FD8C797DC4E12DB0A078A1EA /* Pods-AHSuperImages_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHSuperImages_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2EB505B65C77FF94FEDC3C007509C578 /* Pods-AHSuperImages_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHSuperImages_Tests-dummy.m"; sourceTree = "<group>"; };
 		315E44F7906E0641896C05B681DEBFE5 /* Pods-AHSuperImages_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHSuperImages_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35A2046F20BF51A0000434AB /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = AHSuperImages/Classes/UIImageViewExtension.swift; sourceTree = "<group>"; };
 		37966BB531FD16855E46E7B9DBDABA06 /* AHSuperImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHSuperImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7357675109F4182A6B4E44D509D83A /* Pods-AHSuperImages_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHSuperImages_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F01727ACCC02EFFF458A55775EA28C2 /* Pods_AHSuperImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHSuperImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +66,6 @@
 		B024F205371239550A7F4D1D9EE63964 /* Pods-AHSuperImages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHSuperImages_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B37975ACE4FE40BE517C59FCE919C63E /* Pods-AHSuperImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHSuperImages_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B74C02D8F95E40C0F60E916115F4CE7B /* Pods-AHSuperImages_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AHSuperImages_Tests.modulemap"; sourceTree = "<group>"; };
-		BA2156B0BF4166D8C9E285D345B2FCE4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AHSuperImages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C52C9E55D8499A30738F808E92F34425 /* Pods-AHSuperImages_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHSuperImages_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D9BB17D709A91C3BD7173B4457F7E380 /* Pods-AHSuperImages_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHSuperImages_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DB25E24E3BD4D989865188668CF1E841 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 		8A1A6B1C58266EC2C45E9ACCBD22072C /* AHSuperImages */ = {
 			isa = PBXGroup;
 			children = (
-				BA2156B0BF4166D8C9E285D345B2FCE4 /* ReplaceMe.swift */,
+				35A2046F20BF51A0000434AB /* UIImageViewExtension.swift */,
 				607F226B62EC4B19BFFED2E0E6CCB584 /* Pod */,
 				24B246DA53C6EADEA12CCAA3C3B12A24 /* Support Files */,
 			);
@@ -318,6 +318,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					D52E2348CED654B7D3BCEAABCABE340A = {
+						LastSwiftMigration = 0930;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -359,8 +364,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A2047020BF51A0000434AB /* UIImageViewExtension.swift in Sources */,
 				EEDE54D56B000BE0DB1BA1194F4C1C90 /* AHSuperImages-dummy.m in Sources */,
-				60546357A940ADB536ADDCF81DC278EF /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 876F5CAA3923675E9CF05E839AA3789F /* AHSuperImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -575,6 +581,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 876F5CAA3923675E9CF05E839AA3789F /* AHSuperImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
