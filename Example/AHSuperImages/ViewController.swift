@@ -7,16 +7,19 @@
 //
 
 import UIKit
+
 // step 1 dont forget to import the pod!
+
 import AHSuperImages
 
 class ViewController: UIViewController {
 
+    // step 2 connect to Image be sure to set constrains for width and height to the same value!
     @IBOutlet weak var testImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+    // step 3 call your custom function roundViewWith()
+        testImageView.roundViewWith(borderColor: UIColor.white, borderWidth: 5.0)
     }
 
     override func didReceiveMemoryWarning() {
